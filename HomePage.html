@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Club IRIS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<style>
+
+#topArea{ 
+  position: relative;
+  padding-left: 20px;
+  width: 100%;
+  margin-top:51px; 
+  min-height: 555px;
+  background-image:url("/Users/pratyaksh/Desktop/photo-01.jpeg"); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 5px;
+  opacity: 0.8;
+}
+#sideArea{
+  position: relative;
+  padding-left: 9px;
+  padding-top:20px; 
+  min-height: 300px;
+  width: 350px;
+  background-color: white;
+  float:left;
+}
+
+#rightArea{
+  float: left;
+  width: 700px;
+  min-height: 300px; 
+  padding-left: 20px;
+}
+ 
+
+#img1{
+  position: relative;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+#img2{
+  
+  position: relative;
+  padding-top: 10px;
+}
+#img3{
+  
+  position: relative;
+  padding-top: 30px;
+}
+#img4{
+  position: relative;
+  padding-left: 150px;
+  padding-top: 15px;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 130px;
+  height: 100px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 12px;
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding-left: 130px;
+
+  
+}
+
+.iamge:hover .image {
+  opacity: 0.3;
+}
+
+.image:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  background-color:black;
+  text-align: center;
+  border-radius: 6px;
+}
+  
+#carouselArea {
+  position: relative;
+  float: left;
+  
+  width: 700px;
+  height: 250px; 
+  padding-left: 10px;
+  padding-right: 0px;
+}
+.carousel-inner {
+        padding-top:2px;
+        height: 250px;
+        max-width: 500px;
+    }
+    .carousel .item {
+  height: 150px;
+  max-width: 50px;
+}
+
+    .item img {
+        
+        max-width: 50px;
+        height: 250px;
+        margin: auto; 
+        display: block;
+
+    }
+.cont{
+  width: 700px;
+  height: 400px;
+  padding-top: 65px;
+
+}
+#eventsArea{
+  float: left;
+  width: 500px;
+  min-height: 300px; 
+  padding-left: 30px;
+}
+hr { 
+     position: relative; 
+     top: 10px; 
+     border: none; 
+     height: 3px; 
+     background: black; 
+     margin-bottom: 50px; 
+}
+
+</style>
+</head>
+
+
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     <a href="ClubIRIS" class="navbar-brand" > Club IRIS </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About Us </a></li>
+        <li><a href="#event">Events</a></li>
+        <li><a href="#">Page 3</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 4 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Subscribe</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="topArea">
+  <div id="img1">
+  <div class="image">
+  <img src="/Users/pratyaksh/Desktop/AI ML symbol.png" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text">AI ML</div>
+  </div>
+</div>
+</div>
+<div id="img2">
+<div class="image">
+  <img src="/Users/pratyaksh/Desktop/android.png" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text">Android</div>
+  </div>
+</div>
+ </div>
+ <div id="img3">
+<div class="image">
+  <img src="/Users/pratyaksh/Desktop/webdev.png" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text">Web Development</div>
+  </div>
+</div>
+ </div>
+ <div id="img4">
+<div class="image">
+  <img src="/Users/pratyaksh/Desktop/data science.jpg" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text">Data Science</div>
+  </div>
+</div>
+ </div>
+<div id="img2">
+<div class="image">
+  <img src="/Users/pratyaksh/Desktop/IOT.png" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text">IoT</div>
+  </div>
+</div>
+ </div>
+<div id = "sideArea">
+  <div id="img2">
+  <div class="image">
+  <img src="/Users/pratyaksh/Desktop/cybersecurity.png" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text">Cyber Security</div>
+  </div>
+</div>
+</div>
+<div id="img1">
+  <div class="image">
+  <img src="/Users/pratyaksh/Desktop/GCP.png" alt="Avatar" class="image" >
+  <div class="middle">
+    <div class="text">Cloud</div>
+  </div>
+</div>
+</div>
+</div>
+
+<p><div id = "rightArea">
+<h3 id="about">About Us</h3>
+By completing this course, you will become a master in  Web Design Technologies like CSS3 and Bootstrap and more. This course gives you hands-on and practical experience on detailed CSS3 and Bootstrap and more.
+
+Contents of this tutorial # 
+</p>
+
+<!-- carousel -->
+</div>
+
+ <div id="carouselArea">
+<br>
+  <div class="cont">  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img1.jpg" alt=" event">
+      </div>
+
+      <div class="item">
+        <img src="img2.jpg" alt="Team Pic">
+      </div>
+    
+      <div class="item">
+        <img src="img3.jpg" alt="Event">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</div>
+ 
+<!-- event  -->
+ <div id="eventsArea">
+<h3><div id="event"></div></a> Upcoming Events</h3>
+<table class="table table-striped " style="margin: 20px;">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Event </th>
+      <th scope="col">Timing</th>
+      <th scope="col">Venue</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>12:00</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>12:00</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>12:00</td>
+      <td>@twitter</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Larry</td>
+      <td>12:00</td>
+      <td>@twitter</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Larry</td>
+      <td>12:00 </td>
+      <td>@twitter</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Larry</td>
+      <td>12:00 </td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+ </div>
+
+ 
+ 
+ 
+
+</body>
+</html>
