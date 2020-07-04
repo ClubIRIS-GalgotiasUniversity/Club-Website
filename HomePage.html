@@ -102,7 +102,8 @@
   
 #carouselArea {
   position: relative;
-  margin-top: 300px;
+  float: left;
+  
   width: 700px;
   height: 250px; 
   padding-left: 10px;
@@ -129,8 +130,23 @@
 .cont{
   width: 700px;
   height: 400px;
+  padding-top: 65px;
 
 }
+#eventsArea{
+  float: left;
+  width: 500px;
+  min-height: 300px; 
+  padding-left: 30px;
+}
+hr { 
+            position: relative; 
+            top: 10px; 
+            border: none; 
+            height: 3px; 
+            background: black; 
+            margin-bottom: 50px; 
+        }
 
 </style>
 </head>
@@ -152,8 +168,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1 </a></li>
-        <li><a href="#">Page 2</a></li>
+        <li><a href="#about">About Us </a></li>
+        <li><a href="#event">Events</a></li>
         <li><a href="#">Page 3</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 4 <span class="caret"></span></a>
@@ -230,16 +246,15 @@
 </div>
 
 <p><div id = "rightArea">
-
+<h3 id="about">About Us</h3>
 By completing this course, you will become a master in  Web Design Technologies like CSS3 and Bootstrap and more. This course gives you hands-on and practical experience on detailed CSS3 and Bootstrap and more.
 
 Contents of this tutorial # 
 </p>
 </div>
 
-
  <div id="carouselArea">
-
+<br>
   <div class="cont">  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -278,6 +293,9 @@ Contents of this tutorial #
 
 </div>
  
+ <div id="eventsArea">
+<h3><div id="event"></div></a>Events</h3>
+ </div>
 
 </body>
 </html>
