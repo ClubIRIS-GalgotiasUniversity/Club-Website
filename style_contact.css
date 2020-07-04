@@ -1,0 +1,80 @@
+/*  linear gradient not responsive*/
+
+/* color pallete used is: -----*/
+/* #E63946 --red
+   #F1FAEE --white
+   #A8DADC --lightest blue shade
+   #457B9D --middle blue shade
+   #1D3557 --darkest blue shade
+*/   
+body{
+    background-image: linear-gradient(to right, rgb(241, 250, 238), rgb(168, 218, 220));
+}
+
+h1{
+    font-size: 94px;
+    margin-top: 60px;
+    margin-left: 40px;
+    color: #1D3557;
+}
+
+.message{
+    margin-left: 30px;
+    font-size: 34px;
+    margin-top: 20px;
+    color: #457B9D;
+    width: 60%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    font-size: 2em;
+    padding: 1em;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* remove comment tag from next line if want fname and  lname on same line */
+
+/*#fname{
+    width: 41%;
+}
+#lname{
+    width: 45%;
+    margin-left: 10px;
+}
+*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(168, 218, 220);
+  padding: 20px;
+}
