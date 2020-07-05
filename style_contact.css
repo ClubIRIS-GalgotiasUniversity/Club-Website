@@ -9,6 +9,12 @@
 */   
 body{
     background-image: linear-gradient(to right, rgb(241, 250, 238), rgb(168, 218, 220));
+    display: flexbox;
+}
+
+.side{
+    display: flex;
+
 }
 
 h1{
@@ -23,13 +29,17 @@ h1{
     font-size: 34px;
     margin-top: 20px;
     color: #457B9D;
-    width: 60%;
+    width: 40%;
 }
 
 .icons{
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    left: 0;
 }
 .icons i{
     font-size: 2em;
@@ -51,19 +61,19 @@ body {font-family: Arial, Helvetica, sans-serif;}
 */
 input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
+  padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   resize: vertical;
 }
 
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
-  padding: 12px 20px;
+  padding: 6px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -77,4 +87,6 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: rgb(168, 218, 220);
   padding: 20px;
+  width: 50%;
+  margin-left: 100px;
 }
