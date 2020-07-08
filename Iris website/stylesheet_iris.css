@@ -309,7 +309,7 @@ input[type=submit]:hover {
 .container1 {
   border-radius: 5px;
   background-color: rgb(168, 218, 220);
-  padding: 20px;
+  padding: 2%;
   margin-left:5%;
   width: 40%;
   float: left;
@@ -318,7 +318,7 @@ input[type=submit]:hover {
 .container2 {
   border-radius: 8px;
   background-image: linear-gradient(to right, rgb(241, 250, 238), rgb(168, 218, 220));
-  padding: 12px;
+  padding: 0%;
   margin-left:15%;
   margin-top: 3%;
   width: 10%;
@@ -329,7 +329,7 @@ input[type=submit]:hover {
     position: relative;
   border-radius: 5px;
   background-color: rgb(168, 218, 220);
-  padding: 20px;
+  padding: 4%;
   margin-left:15%;
   margin-right:15%;
   margin-top: 7%;
